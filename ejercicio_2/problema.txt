@@ -1,0 +1,23 @@
+Ejercicio 2
+
+El objetivo es determinar los campeones del mundo según diferentes sistemas de puntuación en carreras de Fórmula 1.
+
+Entrada
+La entrada contiene varios casos de prueba. La primera línea de un caso de prueba contiene dos números enteros G y P
+separados por un espacio en blanco, que indican el número de Grand Prixs (1 ≤ G ≤ 100) y el número de
+pilotos (1 ≤ P ≤ 100).. Los pilotos se identifican mediante números enteros de 1 a P. Cada una de las siguientes líneas G
+indica el resultado de una carrera, y contiene Q enteros separados por espacios. En cada línea, el (i)-ésimo
+indica el orden de llegada del piloto i en la carrera (el primer número indica el orden de llegada
+de un piloto 1 en esa carrera, el segundo número indica el orden de llegada del piloto 2 en esa carrera y así
+etc.). La siguiente línea contiene un único número entero S que indica el número de sistemas de puntuación (1 ≤ S ≤ 10),
+A continuación, cada una de las siguientes líneas S contiene la descripción de un sistema de puntuación. La descripción de
+un sistema de puntuación comienza con un número enteroK (1 ≤ K ≤ P), que indica el último orden de llegada para recibir
+puntos, seguido de un espacio en blanco, seguido de e K enteros k0, k1, ... , kn-1 (1 ≤ ki ≤ 100) separados
+por espacios, indicando el número de puntos a asignar (el primer entero indica los puntos para el primer
+lugar, el segundo entero indica los puntos para el segundo lugar y así sucesivamente). El último caso de prueba va
+seguido de una línea que contiene sólo dos ceros separados por un espacio en blanco.
+
+Salida
+Para cada sistema de puntuación en la entrada, su programa debe imprimir una línea, conteniendo el identificador del
+Campeón del Mundo. Si más de un piloto es Campeón del Mundo (es decir, si hay un empate), la línea debe
+contener todos los Campeones del Mundo, en orden creciente de identificador, separados por un espacio.
