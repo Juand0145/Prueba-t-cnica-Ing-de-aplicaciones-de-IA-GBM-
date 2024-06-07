@@ -4,9 +4,9 @@
 
 1. Asegúrese de tener Python instalado y python3-apt.
 2. Ejecute los archivos de prueba con el siguiente comando:
-3. Asegurarse de tener la libreria python3-apt
-sudo apt-get update
-sudo apt-get install python3-apt
+3. Para instalar la libreria python3-apt
+    sudo apt-get update
+    sudo apt-get install python3-apt
 4. Run the test
 python3 test_1.py
 python3 test_2.py
