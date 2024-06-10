@@ -8,7 +8,7 @@ model = load_model('costumer_clasifciation.h5')
 
 class TestCustomerClassification(unittest.TestCase):
     def test_low_value_customer(self):
-        # Customer with low total spending
+         # Customer with high total spending
         customer_data = np.array([[1012, 105, 15]])
         category = np.argmax(model.predict(customer_data))
         self.assertEqual(category, 2)  # High value category
@@ -20,7 +20,7 @@ class TestCustomerClassification(unittest.TestCase):
         self.assertEqual(category, 1)  # Medium value category
 
     def test_high_value_customer(self):
-        # Customer with high total spending
+        # Customer with medium total spending
         customer_data = np.array([[-1.68238784, -1.18531062, -1.95546849]])
         category = np.argmax(model.predict(customer_data))
         self.assertEqual(category, 1)  # Medium value category
