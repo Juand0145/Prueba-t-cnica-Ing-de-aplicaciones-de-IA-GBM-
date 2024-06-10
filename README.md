@@ -47,7 +47,3 @@ Te encuentras en el eje OX en el punto 0 y quieres moverte a un punto entero x >
 Una tienda de comestibles quiere conocer mejor a sus clientes para crear campañas de marketing personalizadas. Se te pide que desarrolles un modelo de clasificación utilizando Keras que tenga en cuenta la frecuencia de compra de los clientes, sus hábitos de gasto y el monto máximo que gastan en la tienda. El objetivo del modelo es clasificar a los clientes en tres categorías: bajo, medio y alto valor.
 
 **Datos de entrenamiento adjuntos en un archivo llamado `data_customer_classification`.**
-
---- 
-
-Recuerda seguir las instrucciones detalladas y respetar las reglas establecidas para la correcta ejecución de la prueba técnica. ¡Buena suerte!
