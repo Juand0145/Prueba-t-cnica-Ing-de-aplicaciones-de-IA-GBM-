@@ -1,0 +1,2 @@
+El problema consiste en desarrollar un modelo de clasificación utilizando Keras que categorice a los clientes de una tienda de comestibles en tres categorías: baja, media y alta.
+El modelo debe considerar la frecuencia de compra de los clientes, sus hábitos de gasto y el monto máximo que gastan en la tienda.
